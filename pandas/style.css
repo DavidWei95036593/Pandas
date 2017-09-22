@@ -9,6 +9,7 @@ section{
   background-color: lightblue;
 }
 p.one{
+  font-size:28px;
   width: 98%;
   margin: 0.5em ,1%;
 }
@@ -19,6 +20,7 @@ p.lightblue{
   background-color: lightblue;
 }
 p.two{
+  font-size:16.5px;
   float: left;
   width: 49%;
   margin: 0.5em, 1%;
