@@ -6,7 +6,11 @@ section{
   border:solid;
   background-color: lightgrey;
 }
+a.link{
+  padding:50px;
+}
 #nav{
+
   font-size:30px;
   background-color: lightblue;
 }
