@@ -4,10 +4,27 @@ section{
 }
 nav{text-align: center;
   }
-  a{margin:20px;}
+
 body{
   font: bold 24px/45px Helvetica, Sans-Serif;
   background-color: lightgreen;
+  padding:-10px;
+}
+ul{
+  list-style-type:none;
+
+  background-color:#f1f1f1;
+}
+li a{
+  display:block;
+  color: #000;
+  padding:8px 16px;
+  text-decoration: none;
+  margin:-30px;
+}
+li a:hover{
+  background-color:#555;
+  color:white;
 }
 html,body{
   margin: 0;
