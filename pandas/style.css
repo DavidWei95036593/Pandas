@@ -1,6 +1,7 @@
 
 nav{
   text-align: center;
+/*  font-size:10px;*/
   }
 
 body{
@@ -8,24 +9,35 @@ body{
   background-color: lightgreen;
   padding:-10px;
 }
-ul{
-  list-style-type:none;
-  background-color:#f1f1f1;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
-li a{
-  display:block;
-  color: #000;
-  padding:18px 16px;
-  text-decoration: none;
-  margin:-30px;
+
+li {
+    float: left;
 }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 li a:hover{
   background-color:#555;
   color:white;
 }
+
+
 html,body{
-  overflow-x: hidden
-  margin: 0;
+  overflow-x: hidden;
+  margin:0;
   padding:0;
   font-family: 'Playfair Display', serif;
 }
@@ -41,8 +53,12 @@ html,body{
   margin-bottom:-7px;
   height:100%;
   position:relative;
-
 }
+
+section.twocolumn{
+/*  border:solid;*/
+}
+
 h2{  top: 20px;}
 h2, h4{
   text-align: center;
@@ -58,12 +74,15 @@ h4{
 h3{
   margin:0;
   padding:10px;
-  position: absolute;
-
+  /*position: absolute;*/
+/*  background-color: grey;*/
+}
+label{
+  width:40%;
 }
 form{
   font-size:40px;
-  color:brown;
+  color:darkgreen;
   text-align: left;
 }
 
@@ -75,4 +94,37 @@ footer{
   margin:-30px;
   padding:-10px;
 
+}
+/* p.element{
+  margin:10px;
+  height:25%;
+  width:25%;
+  border:solid;
+  float:right;
+}*/
+
+div.container{
+  background-color: lightgreen;
+  width: 100%;
+  overflow: auto
+}
+
+p.onecolumn{
+  float:right;
+  width:100%;
+  text-align: center;
+}
+
+p.twocolumn{
+  float: left;
+  width:49.5%;
+
+}
+p.threecolumn{
+  float: left;
+  width: 32.75%;
+
+}
+p.submit{
+  text-align: center;
 }
